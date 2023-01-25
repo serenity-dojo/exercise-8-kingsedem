@@ -76,7 +76,7 @@ public class WhenWorkingWithSets {
         Boolean endedUpEmpty = colors.isEmpty();
 
         assertThat(startedEmpty).isTrue();
-        assertThat(endedUpEmpty).isTrue();
+        assertThat(endedUpEmpty).isFalse();
 
     }
 
